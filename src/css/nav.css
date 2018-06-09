@@ -1,0 +1,50 @@
+#nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.nav-item{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 900;
+    transition: all 0.1s ease-in-out;
+    color: black;
+    background-color: white;
+}
+
+    .nav-item a{
+        display: block;
+        padding: 1em;
+        margin: 0 1em;
+        border-radius: 0.15em;
+    }
+
+    .nav-item a:hover{
+        transition: all 0.1s ease-in-out;
+        background-color: #FF7200;
+        color: white;
+    }
+
+    @media screen and (max-width: 700px) {
+
+        #nav{
+            display: block;
+            margin-top: 1em;
+        }
+
+        .nav-item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .nav-item a{
+            padding: 1em 3em;
+            float: left;
+        }
+    }
