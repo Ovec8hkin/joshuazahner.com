@@ -21,6 +21,11 @@ a{
     background-color: white;
 }
 
+    .nav-item.active{
+        background-color: #FF7200;
+        color: white;
+    }
+
     .nav-item a{
         display: block;
         padding: 1em;

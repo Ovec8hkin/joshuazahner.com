@@ -32,7 +32,8 @@ class Header extends React.Component{
 
                 </header>
 
-                <Nav/>
+                <Nav active={this.props.active}/>
+
             </div>
 
         );
