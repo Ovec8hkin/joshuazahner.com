@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import './css/App.css';
-import Header from "./components/header";
+import Page from "./components/page";
 
-class App extends Component {
-  render() {
-    return (
+class App extends Component{
 
-          <Header />
+  render(){
+    return(
 
-      );
+        <Page />
+
+    );
   }
+
 }
 
 export default App;

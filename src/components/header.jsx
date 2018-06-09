@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/header.css';
 import profile from '../images/Profile.jpg'
 import Nav from "./nav";
-
+import {Link } from "react-router-dom";
 
 class Header extends React.Component{
 
@@ -15,7 +15,7 @@ class Header extends React.Component{
 
                     <div className="content">
 
-                        <img id="profile-image" className="rounded-image" src={profile} alt=""/>
+                        <Link to={"/"}><img id="profile-image" className="rounded-image" src={profile} alt=""/></Link>
                         <h1>JOSHUA ZAHNER</h1>
                         <p><i>WEB AND SOFTWARE DEVELOPER</i></p>
 

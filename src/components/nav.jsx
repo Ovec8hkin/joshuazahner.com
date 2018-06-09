@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/nav.css"
+import { Link } from "react-router-dom";
 
 class Nav extends React.Component{
 
@@ -7,9 +8,8 @@ class Nav extends React.Component{
         return(
 
             <section id={"nav"}>
-
                 <div className={"nav-item"}>
-                    <a>About Me</a>
+                    <Link to={"/about"}>About</Link>
                 </div>
                 <div className={"nav-item"}>
                     <a>Projects</a>
@@ -23,7 +23,6 @@ class Nav extends React.Component{
                 <div className={"nav-item"}>
                     <a>Blog</a>
                 </div>
-
 
             </section>
 
