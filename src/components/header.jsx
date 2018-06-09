@@ -20,11 +20,11 @@ class Header extends React.Component{
                         <p><i>WEB AND SOFTWARE DEVELOPER</i></p>
 
                         <div id="header-icons">
-                            <i className="fab fa-facebook-f"></i>
-                            <i className="fab fa-twitter"></i>
-                            <i className="fab fa-linkedin-in"></i>
-                            <i className="fab fa-github"></i>
-                            <i className="fas fa-envelope"></i>
+                            <i className="fab fa-facebook-f"/>
+                            <i className="fab fa-twitter"/>
+                            <i className="fab fa-linkedin-in"/>
+                            <i className="fab fa-github"/>
+                            <i className="fas fa-envelope"/>
                         </div>
 
                     </div>

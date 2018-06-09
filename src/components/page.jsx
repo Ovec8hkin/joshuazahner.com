@@ -17,7 +17,7 @@ class Page extends React.Component{
 
                     <Header />
 
-                    <section>
+                    <section className={"container"}>
                         <Route exact path="/" component={Home} />
                         <Route path="/about" component={About} />
                     </section>
