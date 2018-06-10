@@ -1,15 +1,15 @@
 import React from 'react';
-import '../../css/header.css';
+import '../../../css/header.css';
 
 
-class Blog extends React.Component{
+class About extends React.Component{
 
     render(){
 
         return (
 
             <section>
-                <h1>BLOG!!</h1>
+                <h1>ABOUT ME!!</h1>
             </section>
 
         );
@@ -18,4 +18,4 @@ class Blog extends React.Component{
 
 }
 
-export default Blog;
+export default About;

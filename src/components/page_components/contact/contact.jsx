@@ -1,15 +1,15 @@
 import React from 'react';
-import '../../css/header.css';
+import '../../../css/header.css';
 
 
-class Home extends React.Component{
+class Contact extends React.Component{
 
     render(){
 
         return (
 
             <section>
-                <h1>HOME!!</h1>
+                <h1>CONTACT!!</h1>
             </section>
 
         );
@@ -18,4 +18,4 @@ class Home extends React.Component{
 
 }
 
-export default Home;
+export default Contact;

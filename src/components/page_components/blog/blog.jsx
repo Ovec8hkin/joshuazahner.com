@@ -1,15 +1,15 @@
 import React from 'react';
-import '../../css/header.css';
+import '../../../css/header.css';
 
 
-class Contact extends React.Component{
+class Blog extends React.Component{
 
     render(){
 
         return (
 
             <section>
-                <h1>CONTACT!!</h1>
+                <h1>BLOG!!</h1>
             </section>
 
         );
@@ -18,4 +18,4 @@ class Contact extends React.Component{
 
 }
 
-export default Contact;
+export default Blog;
