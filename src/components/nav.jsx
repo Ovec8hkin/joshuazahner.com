@@ -1,6 +1,13 @@
 import React from 'react'
 import "../css/nav.css"
-import NavItem from "./nav-item";
+import { Link } from "react-router-dom";
+
+const menu_items = [
+                    {id: "about", name: "About"},
+                    {id: "projects", name: "Projects"},
+                    {id: "contact", name: "Contact"},
+                    {id: "blog", name: "Blog"}
+                   ];
 
 class Nav extends React.Component{
 
@@ -8,24 +15,20 @@ class Nav extends React.Component{
         super(props);
 
         this.state = {
-            active: 0,
-            items: [
-                    {id: "about", name: "About"},
-                    {id: "projects", name: "Projects"},
-                    {id: "contact", name: "Contact"},
-                    {id: "blog", name: "Blog"}
-                   ]
+            active: 'home',
         };
 
     }
 
-    componentDidMount(){
+    _handle_click(child){
         this.setState({
-            active: this.props.active
+            active: child
         });
     }
 
     render(){
+
+        const active_style = 'active';
 
         return(
 
@@ -33,9 +36,16 @@ class Nav extends React.Component{
 
                 {
 
-                    this.state.items.map((child, i) => {
-                        const active = ( i === this.state.active );
-                        return <NavItem key={i} id={child.id} active={active} name={child.name} />
+                    menu_items.map((child, i) => {
+
+                        return  <div id={child.id} key={i+1} className={"nav-item "}>
+                                    <Link to={"/"+child.id}
+                                          onClick={this._handle_click.bind(this, child.name)}
+                                          className={"nav-item "+ (this.state.active === child.name ? active_style : '')}>
+                                        {child.name}
+                                    </Link>
+                                </div>
+
                     })
 
                 }

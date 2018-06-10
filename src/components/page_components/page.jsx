@@ -10,27 +10,36 @@ import Blog from "./blog";
 
 class Page extends React.Component{
 
-    constructor(props){
-        super(props)
-
-        this.state = {active: 1000}
-
-    }
-
     render(){
         return(
             <Router>
 
                 <div>
 
-                    <Header active={this.state.active}/>
+                    <Header />
 
                     <section className={"container"}>
-                        <Route exact path="/" component={Home} />
-                        <Route path="/about" component={About} />
-                        <Route path="/projects" component={Projects} />
-                        <Route path="/contact" component={Contact} />
-                        <Route path="/blog" component={Blog} />
+
+                        <Route exact path="/" render={() => {
+                            return <Home />
+                        }} />
+
+                        <Route path="/about" render={() => {
+                            return <About />
+                        }}/>
+
+                        <Route path="/projects" render={() => {
+                            return <Projects />
+                        }}/>
+
+                        <Route path="/contact" render={() => {
+                            return <Contact />
+                        }}/>
+
+                        <Route path="/blog" render={() => {
+                            return <Blog />
+                        }}/>
+
                     </section>
 
 

@@ -6,6 +6,8 @@ import {Link } from "react-router-dom";
 
 class Header extends React.Component{
 
+    _
+
     render(){
 
         return (
@@ -32,7 +34,7 @@ class Header extends React.Component{
 
                 </header>
 
-                <Nav active={this.props.active}/>
+                <Nav />
 
             </div>
 
