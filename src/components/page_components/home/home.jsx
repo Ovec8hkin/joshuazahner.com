@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../css/header.css';
+import AboutBlurb from "./about_blurb";
 
 
 class Home extends React.Component{
@@ -9,7 +10,7 @@ class Home extends React.Component{
         return (
 
             <section>
-                <h1>HOME!!</h1>
+                <AboutBlurb />
             </section>
 
         );

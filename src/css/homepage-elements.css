@@ -1,0 +1,47 @@
+article img{
+    width: 46%;
+    height: 26em;
+    display: inline-block;
+}
+
+article .article-content{
+    display: inline-block;
+    width: 52%;
+    padding-left: 2%;
+    line-height: 1.7em;
+}
+
+#about_blurb{
+    display: flex;
+    height: 50vh;
+    align-self: center;
+    align-items: start;
+}
+
+    #about_blurb p{
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+a.button{
+    display: flex;
+    justify-content: center;
+    padding: 0.65em;
+    background-color: #FF7200;
+    color: white;
+    font-size: 12px;
+    border-radius: 0.7em;
+    width: 23%;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: thick #FF7200 solid;
+    transition: all 0.1s ease-in-out;
+}
+
+    a.button:hover{
+
+        transition: all 0.1s ease-in-out;
+        background-color: white;
+        color: #FF7200;
+
+    }
