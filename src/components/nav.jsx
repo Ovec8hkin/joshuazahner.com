@@ -3,10 +3,11 @@ import "../css/nav.css"
 import { Link } from "react-router-dom";
 
 const menu_items = [
-                    {id: "about", name: "About"},
-                    {id: "projects", name: "Projects"},
-                    {id: "contact", name: "Contact"},
-                    {id: "blog", name: "Blog"}
+                    {id: "home", name: "Home", url: "/"},
+                    {id: "about", name: "About", url: "/about"},
+                    {id: "projects", name: "Projects", url: "/projects"},
+                    {id: "contact", name: "Contact", url: "/contact"},
+                    {id: "blog", name: "Blog", url: "/blog"}
                    ];
 
 class Nav extends React.Component{
@@ -39,7 +40,7 @@ class Nav extends React.Component{
                     menu_items.map((child, i) => {
 
                         return  <div id={child.id} key={i+1} className={"nav-item "}>
-                                    <Link to={"/"+child.id}
+                                    <Link to={child.url}
                                           onClick={this._handle_click.bind(this, child.name)}
                                           className={"nav-item "+ (this.state.active === child.name ? active_style : '')}>
                                         {child.name}

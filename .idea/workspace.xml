@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="878b0d35-ceec-47a4-b2c5-790581b6a651" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav-item.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page_components/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page_components/page.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,8 +32,8 @@
       <file leaf-file-name="nav.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/nav.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="99" selection-start-line="43" selection-start-column="99" selection-end-line="43" selection-end-column="99" />
+            <state relative-caret-position="630">
+              <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -190,14 +187,14 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/page_components" />
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,7 +220,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528561752433</updated>
       <workItem from="1528561757858" duration="6206000" />
-      <workItem from="1528648972205" duration="3286000" />
+      <workItem from="1528648972205" duration="3517000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented proper routing with React Router">
       <created>1528568577350</created>
@@ -239,11 +236,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528574621486</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implemented menu highlighting">
+      <created>1528652733677</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528652733677</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14634000" />
+    <option name="totallyTimeSpent" value="14865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -279,7 +283,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented proper routing with React Router" />
     <MESSAGE value="Reorganized project to allow for detection of page transitions and highlight navigatino item accordingly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganized project to allow for detection of page transitions and highlight navigatino item accordingly" />
+    <MESSAGE value="Implemented menu highlighting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented menu highlighting" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/css/index.css">
@@ -632,8 +637,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/nav.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="99" selection-start-line="43" selection-start-column="99" selection-end-line="43" selection-end-column="99" />
+        <state relative-caret-position="630">
+          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
