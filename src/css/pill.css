@@ -1,0 +1,11 @@
+span.pill{
+    font-size: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: #FF7200;
+    border-radius: 10px;
+}

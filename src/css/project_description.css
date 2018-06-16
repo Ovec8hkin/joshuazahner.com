@@ -1,0 +1,15 @@
+article.project-description{
+
+    width: 100%;
+    min-height: 70vh;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding-bottom: 1em;
+
+}
+
+img.header-image{
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}

@@ -18,7 +18,7 @@ class Page extends React.Component{
 
                     <Header />
 
-                    <section className={"container"}>
+                    <section className={"container-fluid"}>
 
                         <Route exact path="/" render={() => {
                             return <Home />

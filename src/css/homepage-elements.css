@@ -1,6 +1,6 @@
 article img{
     width: 46%;
-    height: 26em;
+    height: 100%;
     display: inline-block;
 }
 
@@ -35,8 +35,12 @@ a.button{
     font-weight: 800;
     text-transform: uppercase;
     border: thick #FF7200 solid;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;;
 }
+
+    a.btn-center{
+        margin: 0 auto;
+    }
 
     a.button:hover{
 
@@ -45,3 +49,9 @@ a.button{
         color: #FF7200;
 
     }
+
+.col-md-4{
+    width: calc(33% - 1.5em);
+    display: inline-block;
+    margin: 0 0.75em;
+}
