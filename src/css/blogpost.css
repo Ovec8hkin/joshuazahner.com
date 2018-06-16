@@ -1,0 +1,12 @@
+.post-short img.square{
+
+    width: 33%;
+    display: inline-block;
+    float: left;
+    margin-right: 1em;
+
+}
+
+.post-short p{
+    font-size: 0.85em;
+}

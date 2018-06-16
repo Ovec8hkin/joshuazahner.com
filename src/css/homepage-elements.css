@@ -42,6 +42,12 @@ a.button{
         margin: 0 auto;
     }
 
+    a.btn-small{
+        font-size: 10px;
+        width: auto;
+        padding: 10px 20px;
+    }
+
     a.button:hover{
 
         transition: all 0.1s ease-in-out;
@@ -50,8 +56,18 @@ a.button{
 
     }
 
+.row{
+    margin-top: 2em;
+}
+
 .col-md-4{
     width: calc(33% - 1.5em);
+    display: inline-block;
+    margin: 0 0.75em;
+}
+
+.col-md-6{
+    width: calc(50% - 1.5em);
     display: inline-block;
     margin: 0 0.75em;
 }

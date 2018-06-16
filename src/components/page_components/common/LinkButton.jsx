@@ -7,7 +7,7 @@ class LinkButton extends React.Component{
 
         return(
 
-            <Link to={this.props.link} className={"button" + (this.props.center ? " btn-center" : "")}>{this.props.name}</Link>
+            <Link to={this.props.link} className={"button" + (this.props.center ? " btn-center" : "") + (this.props.small ? " btn-small" : "")}>{this.props.name}</Link>
 
         )
 

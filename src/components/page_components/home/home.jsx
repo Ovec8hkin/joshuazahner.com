@@ -2,6 +2,7 @@ import React from 'react';
 import '../../../css/header.css';
 import AboutBlurb from "./about_blurb";
 import ProjectDescription from "../projects/ProjectDescription";
+import BlogPostShort from "../blog/BlogPostShort";
 
 
 class Home extends React.Component{
@@ -22,6 +23,25 @@ class Home extends React.Component{
                     </div>
                     <div className={"col-md-4"}>
                         <ProjectDescription />
+                    </div>
+                </section>
+
+                <section id={"posts"} style={{marginTop: "5em"}}>
+                    <div className={"row"}>
+                        <div className={"col-md-6"}>
+                            <BlogPostShort />
+                        </div>
+                        <div className={"col-md-6"}>
+                            <BlogPostShort />
+                        </div>
+                    </div>
+                    <div className={"row"}>
+                        <div className={"col-md-6"}>
+                            <BlogPostShort />
+                        </div>
+                        <div className={"col-md-6"}>
+                            <BlogPostShort />
+                        </div>
                     </div>
                 </section>
 
