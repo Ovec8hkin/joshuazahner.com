@@ -7,6 +7,7 @@ import Header from "../header";
 import Projects from "./projects/projects";
 import Contact from "./contact/contact";
 import Blog from "./blog/blog";
+import Skills from "./skills/skills";
 
 class Page extends React.Component{
 
@@ -30,6 +31,10 @@ class Page extends React.Component{
 
                         <Route path="/projects" render={() => {
                             return <Projects />
+                        }}/>
+
+                        <Route path="/skills" render={() => {
+                            return <Skills />
                         }}/>
 
                         <Route path="/contact" render={() => {

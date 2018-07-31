@@ -6,6 +6,7 @@ const menu_items = [
                     {id: "home", name: "Home", url: "/"},
                     {id: "about", name: "About", url: "/about"},
                     {id: "projects", name: "Projects", url: "/projects"},
+                    {id: "skills", name: "Skills", url: "/skills"},
                     {id: "contact", name: "Contact", url: "/contact"},
                     {id: "blog", name: "Blog", url: "/blog"}
                    ];
