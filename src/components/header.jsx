@@ -15,7 +15,7 @@ class Header extends React.Component{
             <div>
                 <header id="header">
 
-                    <div className="content">
+                    <div className="content" style={{marginTop: "2em"}}>
 
                         <Link to={"/"}><img id="profile-image" className="rounded-image" src={profile} alt=""/></Link>
                         <h1>JOSHUA ZAHNER</h1>

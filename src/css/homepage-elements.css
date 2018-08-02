@@ -31,7 +31,7 @@ a.button{
     color: white;
     font-size: 12px;
     border-radius: 0.7em;
-    width: 23%;
+    width: 12em;
     font-weight: 800;
     text-transform: uppercase;
     border: thick #FF7200 solid;
@@ -63,11 +63,11 @@ a.button{
 .col-md-4{
     width: calc(33% - 1.5em);
     display: inline-block;
-    margin: 0 0.75em;
+    margin: 0 0 4em 0;
 }
 
 .col-md-6{
     width: calc(50% - 1.5em);
     display: inline-block;
-    margin: 0 0.75em;
+    margin: 0;
 }

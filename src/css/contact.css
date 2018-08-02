@@ -1,0 +1,9 @@
+form .col-md-6{
+    margin-left: 0 !important;
+    width: 49% !important;
+}
+
+.btn-orange{
+    background-color: #FF7200 !important;
+    color: white;
+}

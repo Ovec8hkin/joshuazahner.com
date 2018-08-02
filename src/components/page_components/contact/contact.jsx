@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../css/header.css';
+import ContactForm from "./contact_form";
 
 
 class Contact extends React.Component{
@@ -8,8 +8,9 @@ class Contact extends React.Component{
 
         return (
 
-            <section>
+            <section className={"container"}>
                 <h1>CONTACT!!</h1>
+                <ContactForm />
             </section>
 
         );
