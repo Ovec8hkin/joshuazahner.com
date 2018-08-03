@@ -9,7 +9,7 @@ class SkillBar extends React.Component{
 
             <article className={"skillbar"}>
 
-                <h2>{this.props.name}</h2>
+                <h3>{this.props.name}</h3>
                 <progress value={this.props.value} max={"100"}>{this.props.value}%</progress>
                 <p>{this.props.years} Years</p>
                 <p>|</p>

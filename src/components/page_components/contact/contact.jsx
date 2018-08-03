@@ -9,7 +9,6 @@ class Contact extends React.Component{
         return (
 
             <section className={"container"}>
-                <h1>CONTACT!!</h1>
                 <ContactForm />
             </section>
 

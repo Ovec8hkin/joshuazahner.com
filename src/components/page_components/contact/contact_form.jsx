@@ -7,7 +7,7 @@ class ContactForm extends React.Component{
 
         return(
 
-            <form id="contact-form" method="post" action="contact.php" role="form">
+            <form id="contact-form" method="post" action="/send-email">
 
                 <div className="messages"></div>
 
