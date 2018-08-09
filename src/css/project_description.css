@@ -1,12 +1,15 @@
 article.project-description{
 
-    width: 100%;
     min-height: 70vh;
-    background-color: rgb(240, 240, 240);
     text-align: center;
-    padding-bottom: 1em;
+    padding: 1em;
 
 }
+
+    article.project-description div{
+        background-color: rgb(240, 240, 240);
+        padding-bottom: 3em;
+    }
 
 img.header-image{
     width: 100%;

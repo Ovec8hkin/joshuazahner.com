@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../css/header.css';
+import ProjectDescription from "./ProjectDescription";
 
 
 class Projects extends React.Component{
@@ -8,8 +9,23 @@ class Projects extends React.Component{
 
         return (
 
-            <section>
+            <section className={"container"}>
                 <h1>PROJECTS!!</h1>
+                <div className={"row col-md-12"}>
+                    <ProjectDescription />
+                    <ProjectDescription />
+                    <ProjectDescription />
+                    <ProjectDescription />
+                    <ProjectDescription />
+                    <ProjectDescription />
+                    <ProjectDescription />
+                    <ProjectDescription />
+                    <ProjectDescription />
+                    <ProjectDescription />
+                    <ProjectDescription />
+                    <ProjectDescription />
+                    <ProjectDescription />
+                </div>
             </section>
 
         );

@@ -49,6 +49,10 @@ class Page extends React.Component{
                             return <Blog />
                         }}/>
 
+                        <Route path="/project" render={() => {
+                            return <Projects />
+                        }}/>
+
                     </section>
 
 
