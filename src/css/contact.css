@@ -7,3 +7,15 @@ form .col-md-6{
     background-color: #FF7200 !important;
     color: white;
 }
+
+#contact-icons{
+    display: flex;
+    justify-content: center;
+}
+
+#contact-icons i{
+    font-size: 3em;
+    color: #FF7000;
+    margin-top: 1em;
+    margin-right: 2em;
+}

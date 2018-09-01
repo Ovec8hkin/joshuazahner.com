@@ -12,7 +12,7 @@ class Home extends React.Component{
         return (
 
             <section className={"container"}>
-                <AboutBlurb />
+                <AboutBlurb showButton={true} backwards={false}/>
 
                 <section id={"projects"} style={{marginTop: "0.5em"}}>
                     <ProjectDescription />

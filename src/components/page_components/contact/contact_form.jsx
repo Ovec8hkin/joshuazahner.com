@@ -16,31 +16,20 @@ class ContactForm extends React.Component{
                     <div className="row">
                         <div className="col-md-6">
                             <div className="form-group">
-                                <label htmlFor="form_name">First Name *</label>
+                                <label htmlFor="form_name"> Name *</label>
                                 <input id="form_name" type="text" name="name" className="form-control"
-                                       placeholder="Please enter your first name *" required="required"
-                                       data-error="First name is required." />
+                                       placeholder="Please enter your name *" required="required"
+                                       data-error="Name is required." />
                                     <div className="help-block with-errors"></div>
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <div className="form-group">
-                                <label htmlFor="form_lastname">Last Name *</label>
-                                <input id="form_lastname" type="text" name="surname" className="form-control"
-                                       placeholder="Please enter your last name *" required="required"
-                                       data-error="Last name is required." />
-                                    <div className="help-block with-errors"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
                         <div className="col-md-6">
                             <div className="form-group">
                                 <label htmlFor="form_email">Email *</label>
                                 <input id="form_email" type="email" name="email" className="form-control"
                                        placeholder="Please enter your email *" required="required"
                                        data-error="Valid email is required." />
-                                    <div className="help-block with-errors"></div>
+                                <div className="help-block with-errors"></div>
                             </div>
                         </div>
                     </div>
