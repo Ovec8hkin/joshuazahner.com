@@ -8,6 +8,7 @@ import Projects from "./projects/projects";
 import Contact from "./contact/contact";
 import Blog from "./blog/blog";
 import Skills from "./skills/skills";
+import Project from "./projects/project";
 
 class Page extends React.Component{
 
@@ -50,7 +51,7 @@ class Page extends React.Component{
                         }}/>
 
                         <Route path="/project" render={() => {
-                            return <Projects />
+                            return <Project />
                         }}/>
 
                     </section>

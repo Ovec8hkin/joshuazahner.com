@@ -15,31 +15,26 @@ class Home extends React.Component{
                 <AboutBlurb />
 
                 <section id={"projects"} style={{marginTop: "5em"}}>
-                    <div className={"col-md-4 col-sm-12"}>
-                        <ProjectDescription />
-                    </div>
-                    <div className={"col-md-4 col-sm-12"}>
-                        <ProjectDescription />
-                    </div>
-                    <div className={"col-md-4 col-sm-12"}>
-                        <ProjectDescription />
-                    </div>
+                    <ProjectDescription />
+                    <ProjectDescription />
+                    <ProjectDescription />
+
                 </section>
 
                 <section id={"posts"} style={{marginTop: "5em"}}>
                     <div className={"row"}>
-                        <div className={"col-md-6 col-sm-12"}>
+                        <div className={"col-md-6 col-sm-6 col-xs-12"}>
                             <BlogPostShort />
                         </div>
-                        <div className={"col-md-6 col-sm-12"}>
+                        <div className={"col-md-6 col-sm-6 col-xs-12"}>
                             <BlogPostShort />
                         </div>
                     </div>
                     <div className={"row"}>
-                        <div className={"col-md-6 col-sm-12"}>
+                        <div className={"col-md-6 col-sm-6 col-xs-12"}>
                             <BlogPostShort />
                         </div>
-                        <div className={"col-md-6 col-sm-12"}>
+                        <div className={"col-md-6 col-sm-6 col-xs-12"}>
                             <BlogPostShort />
                         </div>
                     </div>
