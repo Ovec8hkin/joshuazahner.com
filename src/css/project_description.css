@@ -3,7 +3,6 @@ article.project-description{
     min-height: 70vh;
     text-align: center;
     padding: 1em;
-
 }
 
     article.project-description div{
@@ -16,4 +15,18 @@ img.header-image{
     width: 100%;
     height: 20vh;
     object-fit: cover;
+}
+
+@media screen and (max-width: 700px){
+
+    article.project-description{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 2em;
+    }
+
+    img.header-image{
+        height: 40vh;
+    }
+
 }

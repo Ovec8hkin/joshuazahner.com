@@ -56,7 +56,7 @@ class Project extends React.Component{
                 </div>
                 <div className={"row col-md-12"} style={{marginTop: "5em"}}>
 
-                    <div className={'col-md-6'} >
+                    <div className={'col-md-6 col-sm-12 col-xs-12'} >
                         <Subheading text={'Technologies Used'}/>
                         <SkillLogo img={'swift'}/>
                         <SkillLogo img={'xcode'}/>
@@ -64,7 +64,7 @@ class Project extends React.Component{
                         <SkillLogo img={'git'}/>
                     </div>
 
-                    <div className={"col-md-6"}>
+                    <div className={"col-md-6 col-sm-12 col-xs-12"}>
                         <CustomerReview />
                     </div>
 

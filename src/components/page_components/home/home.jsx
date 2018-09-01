@@ -14,11 +14,10 @@ class Home extends React.Component{
             <section className={"container"}>
                 <AboutBlurb />
 
-                <section id={"projects"} style={{marginTop: "5em"}}>
+                <section id={"projects"} style={{marginTop: "0.5em"}}>
                     <ProjectDescription />
                     <ProjectDescription />
                     <ProjectDescription />
-
                 </section>
 
                 <section id={"posts"} style={{marginTop: "5em"}}>
