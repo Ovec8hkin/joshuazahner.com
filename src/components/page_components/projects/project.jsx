@@ -57,7 +57,7 @@ class Project extends React.Component{
                 <div className={"row col-md-12"} style={{marginTop: "5em"}}>
 
                     <div className={'col-md-6'} >
-                        <Subheading />
+                        <Subheading text={'Technologies Used'}/>
                         <SkillLogo img={'swift'}/>
                         <SkillLogo img={'xcode'}/>
                         <SkillLogo img={'agile'}/>

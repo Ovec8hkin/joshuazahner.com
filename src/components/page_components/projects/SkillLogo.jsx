@@ -6,7 +6,7 @@ class SkillLogo extends Component {
 
     render() {
         return (
-            <img src={require(`../../../images/skills-technologies/${this.props.img}.png`)}/>
+            <img src={require(`../../../images/skills-technologies/${this.props.img}.png`)} className={"skill"}/>
         )
     }
 }

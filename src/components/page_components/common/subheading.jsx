@@ -3,7 +3,7 @@ import React from "react";
 
 class Subheading extends Component {
     render() {
-        return <h2 style={{marginBottom: "2em", fontWeight: "900", textTransform: "uppercase"}}>Technologies Used</h2>;
+        return <h2 style={{marginBottom: "0.5em", fontWeight: "900", textTransform: "uppercase"}}>{this.props.text}</h2>;
     }
 }
 
