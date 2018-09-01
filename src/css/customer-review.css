@@ -1,0 +1,16 @@
+article.customer{
+    width: 100%;
+    height: 300px;
+    background: rgb(230, 230, 230);
+    border-radius: 1em;
+    padding: 2em;
+}
+
+article.customer header{
+    margin-bottom: 2em;
+}
+
+img.customer{
+    width: 5em;
+    margin: 0 2em 0 0;
+}

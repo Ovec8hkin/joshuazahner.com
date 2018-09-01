@@ -4,6 +4,7 @@ import '../../../css/project.css'
 import Pill from "../common/Pill"
 import SkillLogo from "./SkillLogo";
 import Subheading from "../common/subheading";
+import CustomerReview from "./CustomerReview";
 
 
 class Project extends React.Component{
@@ -53,12 +54,20 @@ class Project extends React.Component{
                         elementum. Nulla sit amet leo sed elit faucibus cursus quis at magna. Vivamus sed condimentum
                         massa, rutrum sollicitudin nunc.</p>
                 </div>
-                <div className={'col-md-6'} style={{marginTop: "5em"}}>
-                    <Subheading />
-                    <SkillLogo img={'swift'}/>
-                    <SkillLogo img={'xcode'}/>
-                    <SkillLogo img={'agile'}/>
-                    <SkillLogo img={'git'}/>
+                <div className={"row col-md-12"} style={{marginTop: "5em"}}>
+
+                    <div className={'col-md-6'} >
+                        <Subheading />
+                        <SkillLogo img={'swift'}/>
+                        <SkillLogo img={'xcode'}/>
+                        <SkillLogo img={'agile'}/>
+                        <SkillLogo img={'git'}/>
+                    </div>
+
+                    <div className={"col-md-6"}>
+                        <CustomerReview />
+                    </div>
+
                 </div>
 
 
